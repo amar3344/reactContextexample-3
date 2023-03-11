@@ -1,1 +1,5 @@
 /* Write your CSS here */
+p {
+  font-size: 12px;
+  font-weight: 500;
+}

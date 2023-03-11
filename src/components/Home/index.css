@@ -3,19 +3,25 @@
   font-family: 'Roboto';
 }
 
-.react-app {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  background-color: #000;
+.container {
+  width: 50%;
 }
 
-.dark-light-theme {
-  background-color: #fff;
-  width: 50%;
+.light-theme {
+  background-color: #000;
+  height: calc(100% - 50px);
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-theme {
+  background-color: #fff;
+  height: calc(100% - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -29,4 +35,8 @@
 
 .home-image {
   width: 100px;
+}
+
+h1 {
+  color: #171f46;
 }

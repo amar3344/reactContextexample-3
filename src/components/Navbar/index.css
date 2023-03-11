@@ -1,10 +1,21 @@
-nav {
+.light-theme-container {
   height: 50px;
   display: flex;
   justify-content: space-between;
   padding: 5px;
   border-bottom: 1px solid #dcdcdc;
   width: 100%;
+  background-color: #333333;
+}
+
+.dark-theme-container {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #dcdcdc;
+  width: 100%;
+  background-color: #fff;
 }
 
 .nav-links {
@@ -17,9 +28,22 @@ nav {
   text-decoration: none;
   font-size: 12px;
   font-weight: bold;
+}
+
+.dark-theme {
+  color: #fff;
+}
+
+.light-theme {
   color: #1e293b;
 }
 
 .nav-images {
   height: 40px;
+}
+
+.nav-button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
